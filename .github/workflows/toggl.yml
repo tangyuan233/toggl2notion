@@ -16,7 +16,7 @@ jobs:
         NOTION_PAGE: ${{ secrets.NOTION_PAGE }}
         EMAIL: ${{ secrets.EMAIL }}
         PASSWORD: ${{ secrets.PASSWORD }}
-        YEAR: ${{ vars.YEAR }}
+        YEAR: 2023
         REPOSITORY: ${{ github.repository }}
     steps:
       - name: Checkout

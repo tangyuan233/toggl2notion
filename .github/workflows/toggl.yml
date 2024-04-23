@@ -44,7 +44,7 @@ jobs:
       - name: Rename notion.svg to a random name
         run: |
             RANDOM_FILENAME=$(uuidgen).svg
-            mv ./OUT_FOLDER/notion.svg ./OUT_FOLDER/$RANDOM_FILENAME
+            mv "./OUT_FOLDER/notion.svg" "./OUT_FOLDER/$RANDOM_FILENAME"
             echo "Renamed file to $RANDOM_FILENAME"
       - name: udpate heatmap 
         run: |
